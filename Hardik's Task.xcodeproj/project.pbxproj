@@ -1,0 +1,778 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8985D7E02DB8D66700632B2B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8985D7D32DB8D66700632B2B /* AppDelegate.swift */; };
+		8985D7E12DB8D66700632B2B /* Hardik_s_Task.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8985D7D62DB8D66700632B2B /* Hardik_s_Task.xcdatamodeld */; };
+		8985D7E22DB8D66700632B2B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8985D7DC2DB8D66700632B2B /* SceneDelegate.swift */; };
+		8985D7E32DB8D66700632B2B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8985D7DD2DB8D66700632B2B /* ViewController.swift */; };
+		8985D7E42DB8D66700632B2B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8985D7D42DB8D66700632B2B /* Assets.xcassets */; };
+		8985D7E62DB8D66700632B2B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8985D7D92DB8D66700632B2B /* LaunchScreen.storyboard */; };
+		8985D7E72DB8D66700632B2B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8985D7DB2DB8D66700632B2B /* Main.storyboard */; };
+		8985D7EA2DB8D66A00632B2B /* Hardik_s_TaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8985D7E82DB8D66A00632B2B /* Hardik_s_TaskTests.swift */; };
+		8985D7EE2DB8D66D00632B2B /* Hardik_s_TaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8985D7EB2DB8D66D00632B2B /* Hardik_s_TaskUITests.swift */; };
+		8985D7EF2DB8D66D00632B2B /* Hardik_s_TaskUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8985D7EC2DB8D66D00632B2B /* Hardik_s_TaskUITestsLaunchTests.swift */; };
+		8985D7F22DB8D72A00632B2B /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8985D7F12DB8D72900632B2B /* APIService.swift */; };
+		8985D7F52DB8D78100632B2B /* ImageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8985D7F42DB8D77300632B2B /* ImageModel.swift */; };
+		8985D7F92DB8D7E300632B2B /* ImageLoaderManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8985D7F82DB8D7DF00632B2B /* ImageLoaderManager.swift */; };
+		8985D7FB2DB8D80D00632B2B /* CacheDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8985D7FA2DB8D80200632B2B /* CacheDataManager.swift */; };
+		8985D7FE2DB8D84400632B2B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8985D7FD2DB8D84300632B2B /* Constants.swift */; };
+		8985D8012DB8D88B00632B2B /* AllExtention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8985D8002DB8D88500632B2B /* AllExtention.swift */; };
+		8985D8042DB8D8CC00632B2B /* ImageListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8985D8032DB8D8C600632B2B /* ImageListViewModel.swift */; };
+		8985D80D2DB8D9DE00632B2B /* ImgCollViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8985D80B2DB8D9DE00632B2B /* ImgCollViewCell.swift */; };
+		8985D80E2DB8D9DE00632B2B /* ImgCollViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8985D80C2DB8D9DE00632B2B /* ImgCollViewCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8985D7772DB89C7300632B2B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8985D7542DB89C7100632B2B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8985D75B2DB89C7100632B2B;
+			remoteInfo = "Hardik's Task";
+		};
+		8985D7812DB89C7300632B2B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8985D7542DB89C7100632B2B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8985D75B2DB89C7100632B2B;
+			remoteInfo = "Hardik's Task";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8985D75C2DB89C7100632B2B /* Hardik's Task.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hardik's Task.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8985D7762DB89C7300632B2B /* Hardik's TaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hardik's TaskTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8985D7802DB89C7300632B2B /* Hardik's TaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hardik's TaskUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8985D7D32DB8D66700632B2B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8985D7D42DB8D66700632B2B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8985D7D52DB8D66700632B2B /* Hardik_s_Task.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Hardik_s_Task.entitlements; sourceTree = "<group>"; };
+		8985D7D72DB8D66700632B2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8985D7D82DB8D66700632B2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8985D7DA2DB8D66700632B2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8985D7DC2DB8D66700632B2B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8985D7DD2DB8D66700632B2B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8985D7DF2DB8D66700632B2B /* Hardik_s_Task.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Hardik_s_Task.xcdatamodel; sourceTree = "<group>"; };
+		8985D7E82DB8D66A00632B2B /* Hardik_s_TaskTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hardik_s_TaskTests.swift; sourceTree = "<group>"; };
+		8985D7EB2DB8D66D00632B2B /* Hardik_s_TaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hardik_s_TaskUITests.swift; sourceTree = "<group>"; };
+		8985D7EC2DB8D66D00632B2B /* Hardik_s_TaskUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hardik_s_TaskUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8985D7F12DB8D72900632B2B /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		8985D7F42DB8D77300632B2B /* ImageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageModel.swift; sourceTree = "<group>"; };
+		8985D7F82DB8D7DF00632B2B /* ImageLoaderManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoaderManager.swift; sourceTree = "<group>"; };
+		8985D7FA2DB8D80200632B2B /* CacheDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheDataManager.swift; sourceTree = "<group>"; };
+		8985D7FD2DB8D84300632B2B /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		8985D8002DB8D88500632B2B /* AllExtention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllExtention.swift; sourceTree = "<group>"; };
+		8985D8032DB8D8C600632B2B /* ImageListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageListViewModel.swift; sourceTree = "<group>"; };
+		8985D80B2DB8D9DE00632B2B /* ImgCollViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImgCollViewCell.swift; sourceTree = "<group>"; };
+		8985D80C2DB8D9DE00632B2B /* ImgCollViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImgCollViewCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8985D7592DB89C7100632B2B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8985D7732DB89C7300632B2B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8985D77D2DB89C7300632B2B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8985D7532DB89C7100632B2B = {
+			isa = PBXGroup;
+			children = (
+				8985D7DE2DB8D66700632B2B /* Hardik's Task */,
+				8985D7E92DB8D66A00632B2B /* Hardik's TaskTests */,
+				8985D7ED2DB8D66D00632B2B /* Hardik's TaskUITests */,
+				8985D75D2DB89C7100632B2B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8985D75D2DB89C7100632B2B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8985D75C2DB89C7100632B2B /* Hardik's Task.app */,
+				8985D7762DB89C7300632B2B /* Hardik's TaskTests.xctest */,
+				8985D7802DB89C7300632B2B /* Hardik's TaskUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8985D7DE2DB8D66700632B2B /* Hardik's Task */ = {
+			isa = PBXGroup;
+			children = (
+				8985D8022DB8D8C000632B2B /* ViewModel */,
+				8985D7F62DB8D7C300632B2B /* Common */,
+				8985D7F02DB8D70100632B2B /* APIHandler */,
+				8985D7F32DB8D75400632B2B /* Models */,
+				8985D8052DB8D90700632B2B /* Controllers */,
+				8985D8102DB8EC4D00632B2B /* Storyboard */,
+				8985D80F2DB8EBE600632B2B /* Delegate */,
+				8985D8092DB8D9AF00632B2B /* Cells */,
+				8985D7D42DB8D66700632B2B /* Assets.xcassets */,
+				8985D7D52DB8D66700632B2B /* Hardik_s_Task.entitlements */,
+				8985D7D62DB8D66700632B2B /* Hardik_s_Task.xcdatamodeld */,
+				8985D7D72DB8D66700632B2B /* Info.plist */,
+			);
+			path = "Hardik's Task";
+			sourceTree = "<group>";
+		};
+		8985D7E92DB8D66A00632B2B /* Hardik's TaskTests */ = {
+			isa = PBXGroup;
+			children = (
+				8985D7E82DB8D66A00632B2B /* Hardik_s_TaskTests.swift */,
+			);
+			path = "Hardik's TaskTests";
+			sourceTree = "<group>";
+		};
+		8985D7ED2DB8D66D00632B2B /* Hardik's TaskUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8985D7EB2DB8D66D00632B2B /* Hardik_s_TaskUITests.swift */,
+				8985D7EC2DB8D66D00632B2B /* Hardik_s_TaskUITestsLaunchTests.swift */,
+			);
+			path = "Hardik's TaskUITests";
+			sourceTree = "<group>";
+		};
+		8985D7F02DB8D70100632B2B /* APIHandler */ = {
+			isa = PBXGroup;
+			children = (
+				8985D7F12DB8D72900632B2B /* APIService.swift */,
+			);
+			path = APIHandler;
+			sourceTree = "<group>";
+		};
+		8985D7F32DB8D75400632B2B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8985D7F42DB8D77300632B2B /* ImageModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8985D7F62DB8D7C300632B2B /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				8985D7FF2DB8D87A00632B2B /* Extentions */,
+				8985D7FC2DB8D83200632B2B /* Constant */,
+				8985D7F72DB8D7CB00632B2B /* Helper */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		8985D7F72DB8D7CB00632B2B /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				8985D7FA2DB8D80200632B2B /* CacheDataManager.swift */,
+				8985D7F82DB8D7DF00632B2B /* ImageLoaderManager.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		8985D7FC2DB8D83200632B2B /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				8985D7FD2DB8D84300632B2B /* Constants.swift */,
+			);
+			path = Constant;
+			sourceTree = "<group>";
+		};
+		8985D7FF2DB8D87A00632B2B /* Extentions */ = {
+			isa = PBXGroup;
+			children = (
+				8985D8002DB8D88500632B2B /* AllExtention.swift */,
+			);
+			path = Extentions;
+			sourceTree = "<group>";
+		};
+		8985D8022DB8D8C000632B2B /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				8985D8032DB8D8C600632B2B /* ImageListViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		8985D8052DB8D90700632B2B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8985D8062DB8D91500632B2B /* ImageListingView */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		8985D8062DB8D91500632B2B /* ImageListingView */ = {
+			isa = PBXGroup;
+			children = (
+				8985D7DD2DB8D66700632B2B /* ViewController.swift */,
+			);
+			path = ImageListingView;
+			sourceTree = "<group>";
+		};
+		8985D8092DB8D9AF00632B2B /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				8985D80A2DB8D9B700632B2B /* Collectionview */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		8985D80A2DB8D9B700632B2B /* Collectionview */ = {
+			isa = PBXGroup;
+			children = (
+				8985D80B2DB8D9DE00632B2B /* ImgCollViewCell.swift */,
+				8985D80C2DB8D9DE00632B2B /* ImgCollViewCell.xib */,
+			);
+			path = Collectionview;
+			sourceTree = "<group>";
+		};
+		8985D80F2DB8EBE600632B2B /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				8985D7D32DB8D66700632B2B /* AppDelegate.swift */,
+				8985D7DC2DB8D66700632B2B /* SceneDelegate.swift */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		8985D8102DB8EC4D00632B2B /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				8985D7D92DB8D66700632B2B /* LaunchScreen.storyboard */,
+				8985D7DB2DB8D66700632B2B /* Main.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8985D75B2DB89C7100632B2B /* Hardik's Task */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8985D7892DB89C7300632B2B /* Build configuration list for PBXNativeTarget "Hardik's Task" */;
+			buildPhases = (
+				8985D7582DB89C7100632B2B /* Sources */,
+				8985D7592DB89C7100632B2B /* Frameworks */,
+				8985D75A2DB89C7100632B2B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Hardik's Task";
+			packageProductDependencies = (
+			);
+			productName = "Hardik's Task";
+			productReference = 8985D75C2DB89C7100632B2B /* Hardik's Task.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8985D7752DB89C7300632B2B /* Hardik's TaskTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8985D78E2DB89C7300632B2B /* Build configuration list for PBXNativeTarget "Hardik's TaskTests" */;
+			buildPhases = (
+				8985D7722DB89C7300632B2B /* Sources */,
+				8985D7732DB89C7300632B2B /* Frameworks */,
+				8985D7742DB89C7300632B2B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8985D7782DB89C7300632B2B /* PBXTargetDependency */,
+			);
+			name = "Hardik's TaskTests";
+			packageProductDependencies = (
+			);
+			productName = "Hardik's TaskTests";
+			productReference = 8985D7762DB89C7300632B2B /* Hardik's TaskTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8985D77F2DB89C7300632B2B /* Hardik's TaskUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8985D7912DB89C7300632B2B /* Build configuration list for PBXNativeTarget "Hardik's TaskUITests" */;
+			buildPhases = (
+				8985D77C2DB89C7300632B2B /* Sources */,
+				8985D77D2DB89C7300632B2B /* Frameworks */,
+				8985D77E2DB89C7300632B2B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8985D7822DB89C7300632B2B /* PBXTargetDependency */,
+			);
+			name = "Hardik's TaskUITests";
+			packageProductDependencies = (
+			);
+			productName = "Hardik's TaskUITests";
+			productReference = 8985D7802DB89C7300632B2B /* Hardik's TaskUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8985D7542DB89C7100632B2B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					8985D75B2DB89C7100632B2B = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					8985D7752DB89C7300632B2B = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 8985D75B2DB89C7100632B2B;
+					};
+					8985D77F2DB89C7300632B2B = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 8985D75B2DB89C7100632B2B;
+					};
+				};
+			};
+			buildConfigurationList = 8985D7572DB89C7100632B2B /* Build configuration list for PBXProject "Hardik's Task" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8985D7532DB89C7100632B2B;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 8985D75D2DB89C7100632B2B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8985D75B2DB89C7100632B2B /* Hardik's Task */,
+				8985D7752DB89C7300632B2B /* Hardik's TaskTests */,
+				8985D77F2DB89C7300632B2B /* Hardik's TaskUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8985D75A2DB89C7100632B2B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8985D7E42DB8D66700632B2B /* Assets.xcassets in Resources */,
+				8985D7E62DB8D66700632B2B /* LaunchScreen.storyboard in Resources */,
+				8985D80E2DB8D9DE00632B2B /* ImgCollViewCell.xib in Resources */,
+				8985D7E72DB8D66700632B2B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8985D7742DB89C7300632B2B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8985D77E2DB89C7300632B2B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8985D7582DB89C7100632B2B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8985D7F92DB8D7E300632B2B /* ImageLoaderManager.swift in Sources */,
+				8985D8042DB8D8CC00632B2B /* ImageListViewModel.swift in Sources */,
+				8985D80D2DB8D9DE00632B2B /* ImgCollViewCell.swift in Sources */,
+				8985D7E02DB8D66700632B2B /* AppDelegate.swift in Sources */,
+				8985D7FB2DB8D80D00632B2B /* CacheDataManager.swift in Sources */,
+				8985D7F52DB8D78100632B2B /* ImageModel.swift in Sources */,
+				8985D7F22DB8D72A00632B2B /* APIService.swift in Sources */,
+				8985D7E12DB8D66700632B2B /* Hardik_s_Task.xcdatamodeld in Sources */,
+				8985D8012DB8D88B00632B2B /* AllExtention.swift in Sources */,
+				8985D7E22DB8D66700632B2B /* SceneDelegate.swift in Sources */,
+				8985D7E32DB8D66700632B2B /* ViewController.swift in Sources */,
+				8985D7FE2DB8D84400632B2B /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8985D7722DB89C7300632B2B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8985D7EA2DB8D66A00632B2B /* Hardik_s_TaskTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8985D77C2DB89C7300632B2B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8985D7EE2DB8D66D00632B2B /* Hardik_s_TaskUITests.swift in Sources */,
+				8985D7EF2DB8D66D00632B2B /* Hardik_s_TaskUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8985D7782DB89C7300632B2B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8985D75B2DB89C7100632B2B /* Hardik's Task */;
+			targetProxy = 8985D7772DB89C7300632B2B /* PBXContainerItemProxy */;
+		};
+		8985D7822DB89C7300632B2B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8985D75B2DB89C7100632B2B /* Hardik's Task */;
+			targetProxy = 8985D7812DB89C7300632B2B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8985D7D92DB8D66700632B2B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8985D7D82DB8D66700632B2B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		8985D7DB2DB8D66700632B2B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8985D7DA2DB8D66700632B2B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8985D78A2DB89C7300632B2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Hardik's Task/Hardik_s_Task.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7XZRHKVZG5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Hardik's Task/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.app.Hardik-s-Task";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8985D78B2DB89C7300632B2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Hardik's Task/Hardik_s_Task.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7XZRHKVZG5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Hardik's Task/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.app.Hardik-s-Task";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8985D78C2DB89C7300632B2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8985D78D2DB89C7300632B2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8985D78F2DB89C7300632B2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7XZRHKVZG5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.app.Hardik-s-TaskTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hardik's Task.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Hardik's Task";
+			};
+			name = Debug;
+		};
+		8985D7902DB89C7300632B2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7XZRHKVZG5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.app.Hardik-s-TaskTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hardik's Task.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Hardik's Task";
+			};
+			name = Release;
+		};
+		8985D7922DB89C7300632B2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7XZRHKVZG5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.app.Hardik-s-TaskUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Hardik's Task";
+			};
+			name = Debug;
+		};
+		8985D7932DB89C7300632B2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7XZRHKVZG5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.app.Hardik-s-TaskUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Hardik's Task";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8985D7572DB89C7100632B2B /* Build configuration list for PBXProject "Hardik's Task" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8985D78C2DB89C7300632B2B /* Debug */,
+				8985D78D2DB89C7300632B2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8985D7892DB89C7300632B2B /* Build configuration list for PBXNativeTarget "Hardik's Task" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8985D78A2DB89C7300632B2B /* Debug */,
+				8985D78B2DB89C7300632B2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8985D78E2DB89C7300632B2B /* Build configuration list for PBXNativeTarget "Hardik's TaskTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8985D78F2DB89C7300632B2B /* Debug */,
+				8985D7902DB89C7300632B2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8985D7912DB89C7300632B2B /* Build configuration list for PBXNativeTarget "Hardik's TaskUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8985D7922DB89C7300632B2B /* Debug */,
+				8985D7932DB89C7300632B2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8985D7D62DB8D66700632B2B /* Hardik_s_Task.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8985D7DF2DB8D66700632B2B /* Hardik_s_Task.xcdatamodel */,
+			);
+			currentVersion = 8985D7DF2DB8D66700632B2B /* Hardik_s_Task.xcdatamodel */;
+			path = Hardik_s_Task.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8985D7542DB89C7100632B2B /* Project object */;
+}
